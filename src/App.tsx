@@ -524,7 +524,7 @@ function ProjectsSection({ onProjectClick }: { onProjectClick: (project: typeof 
             Selected Works
           </h2>
           <p className="text-neutral-400 text-lg mt-4 max-w-xl">
-            A collection of projects that showcase my expertise in design, development, and creative problem-solving.
+            A few things I've built — mostly mobile apps and AI tools, from a real Android marketplace to an automated video pipeline.
           </p>
         </div>
 
