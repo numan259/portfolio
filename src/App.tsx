@@ -442,7 +442,7 @@ function HeroSection() {
               <img 
                 src="/Profile.jpg"
                 alt="Mohammed Numan Raza"
-                className="relative z-10 w-full h-full object-cover rounded-full breathing"
+                className="relative z-10 w-full h-full object-cover object-[center_25%] rounded-full breathing"
               />
               {/* Glow ring */}
               <div className="absolute -inset-4 bg-white/10 rounded-full blur-xl" />
