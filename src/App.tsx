@@ -403,9 +403,16 @@ function HeroSection() {
               ref={nameRef}
               className="font-display text-6xl md:text-8xl lg:text-9xl text-white leading-none mb-6 overflow-hidden"
             >
-              {name.split('').map((char, index) => (
-                <span key={index} className="char inline-block">
-                  {char === ' ' ? '\u00A0' : char}
+              {name.split(' ').map((word, wordIndex) => (
+                <span
+                  key={wordIndex}
+                  className="inline-block whitespace-nowrap mr-[0.25em] last:mr-0"
+                >
+                  {word.split('').map((char, charIndex) => (
+                    <span key={charIndex} className="char inline-block">
+                      {char}
+                    </span>
+                  ))}
                 </span>
               ))}
             </h1>
