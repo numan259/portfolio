@@ -96,7 +96,7 @@ const projects = [
     id: 5,
     title: "Connect 4 AI",
     category: "Algorithms / AI",
-    images: ["/project-4.jpg"],
+    images: ["/connect4-logo.PNG"],
     description: "A Connect 4 game AI comparing Minimax against Alpha-Beta pruning, with a formal performance analysis. Built as an academic project demonstrating adversarial search optimization.",
     technologies: ["Python", "LaTeX"],
     liveUrl: null,
